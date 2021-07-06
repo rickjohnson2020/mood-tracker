@@ -7,9 +7,9 @@ const toJson = async (res) => {
   }
 }
 
-// 一覧を取得
+// 一覧を取得　　フェッチ先をlocalからherokuに変更
 export const getMood = async () =>{
-  const res = await fetch('http://localhost:8000/api/v1/mood/', {
+  const res = await fetch('http://mood-tracking-app.herokuapp.com/api/v1/mood/', {
     method: 'GET',
     mode: 'cors'
   })
@@ -18,7 +18,7 @@ export const getMood = async () =>{
 
 // 詳細を取得
 export const getMoodDetail = async (id) => {
-  const res = await fetch(`http://localhost:8000/api/v1/mood/${id}`, {
+  const res = await fetch(`http://mood-tracking-app.herokuapp.com/api/v1/mood/${id}`, {
     method : 'GET',
     mode: 'cors'
   })
