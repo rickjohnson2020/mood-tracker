@@ -1,0 +1,14 @@
+.header {
+  color: #A9A9A9;
+  font-size: 50px;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+.header-top {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  margin: 40px auto 80px auto ;
+}

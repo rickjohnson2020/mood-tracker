@@ -1,0 +1,90 @@
+.common {
+  background-color: #F5F5F5;
+  width: 80%;
+  height: auto;
+  /* margin: 100px 300px 100px 300px; */
+  border-radius:15px;
+  position: absolute;
+  right: 170px;
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.PhoneCommon {
+  background-color: #F5F5F5;
+  width: 80%;
+  height: auto;
+  /* margin: 100px 300px 100px 300px; */
+  border-radius:15px;
+  position: absolute;
+  right: 50px;
+}
+
+.date-common {
+  margin: 12px auto 40px 12px;
+  display:flex;
+}
+
+.mood-common {
+  display:flex;
+  margin: 12px auto 40px 12px;
+}
+
+.note-common {
+  /* display:flex; */
+  margin-left: 12px;
+
+}
+
+.calendar-icon {
+  width: 25px;
+  height: 25px;
+  display:inline-block;
+  vertical-align:top;
+  margin: 12px auto 12px 12px;
+}
+
+.mood-icon {
+  width: 25px;
+  height: 25px;
+  display:inline-block;
+  vertical-align:top;
+  margin: 12px auto 12px 12px;
+}
+
+.note-icon {
+  width: 30px;
+  height: 30px;
+  display:inline-block;
+  vertical-align:top;
+  margin: 12px auto 12px 12px;
+}
+
+.detail-date {
+  font-size: 25px;
+  font-weight: 500;
+  /* padding-right: 90%; */
+  display:inline-block;
+  vertical-align:top;
+  /* margin: 12px auto 12px 12px; */
+  padding-right: 1100px;
+}
+
+.detail-mood {
+  font-size: 25px;
+  font-weight: 500;
+  /* padding-right: 90%; */
+  display:inline-block;
+  vertical-align:top;
+  margin: 12px auto 12px 12px;
+  padding-right: 1100px;
+}
+
+.detail-note {
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 1px;
+  /* display:inline-block; */
+  /* vertical-align:top; */
+  margin: 12px 30px 12px 12px;
+  /* padding-right: 120px; */
+}

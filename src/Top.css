@@ -1,0 +1,85 @@
+/* .whole-body {
+  text-align: center;
+  background-color: red;
+  margin-left: 20px;
+
+} */
+
+
+/* MoodContentのまとまりに対して */
+.Top {
+  /* text-align: center; */
+  margin-right: 500px;
+  margin-left: 50px;
+  /* padding-right: 500px; */
+  /* width: 500px; */
+}
+
+.PhoneTop {
+  position: absolute;
+  left: 30px;
+  right: 0;
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-top: 550px;
+}
+
+
+
+.pie-chart-parent {
+  display: inline-block;
+  vertical-align:top;
+  position: fixed;
+  right: 90px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+  /* margin-right: 20px; */
+  /* width: 25%; */
+}
+
+.PhonePieChartParent {
+  position: absolute;
+  right: 90px;
+  left: 30px;
+  top: 200px;
+  width: 420px;
+  background-color: #F5F5F5;
+  border-radius: 15px;
+}
+
+.pie-chart-child {
+  padding: 12px;
+
+}
+
+.label {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+
+.label-color1, .label-color2, .label-color3, .label-color4 {
+  width: 30px;
+  height: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 0;
+  margin-left: 5px;
+  margin-top: 19px;
+
+}
+
+.label-color1 {
+  background-color: #FFCC33;
+}
+.label-color2 {
+  background-color: #98FB98;
+}
+.label-color3 {
+  background-color: #DDA0DD;
+}
+.label-color4 {
+  background-color: #D3D3D3;
+}

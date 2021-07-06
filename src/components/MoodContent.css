@@ -1,0 +1,59 @@
+
+/* MoodContent一つ一つに対して */
+.img1, .img2, .img3, .img4 {
+  width: 130px;
+  height: 155px;
+  text-align: center;
+  /* height: 155px; */
+  border-radius: 15px;
+  /* cursor: pointer; */
+  padding: 0;
+  /* margin-bottom: 10%; */
+  /* border:1px solid #eee; */
+  box-sizing: border-box;
+  float: left;
+  margin: 5px;
+  transition: background 0.5s;
+  filter: drop-shadow(5px 5px 5px #aaa);
+  /* display:inline-block; */
+  /* vertical-align:top; */
+}
+
+.img1 {
+  background-color: #FFFFE0;
+}
+
+.img1:hover {
+  background-color: #FFCC33;
+
+}
+
+.img2 {
+  background-color: #F5F5DC;
+}
+
+.img2:hover {
+  background-color: #98FB98;
+}
+
+.img3 {
+  background-color: #FFF0F5;
+}
+
+.img3:hover {
+  background-color: #DDA0DD
+}
+
+.img4 {
+  background-color: #F5F5F5;
+}
+
+.img4:hover {
+  background-color: #D3D3D3;
+}
+
+
+.date {
+  font-size: 14px;
+  color: #A9A9A9;
+}
