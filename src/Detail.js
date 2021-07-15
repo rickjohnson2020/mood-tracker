@@ -41,32 +41,28 @@ export const Detail = () => {
         :
         isWide ?
         <div className='common'>
-          <div className='date-common'>
-            <img className='calendar-icon' src={calendarIcon} />
-            <h1 className='detail-date'>{detail.date}</h1>
+          <div className='date'>
+            <img src={calendarIcon} width='25' />
+            <h2>{detail.date}: </h2>
+            <h3>{detail.mood}</h3>
           </div>
-          <div className='mood-common'>
-            <img className='mood-icon' src={moodIcon} />
-            <h2 className='detail-mood'>{detail.mood}</h2>
-          </div>
-          <div className='note-common'>
-            <img className='note-icon' src={noteIcon} />
-            <h2 className='detail-note'>{detail.note}</h2>
+          <div className='note'>
+            <img src={noteIcon} width='30' />
+            <h2>Note</h2>
+            <p>{detail.note}</p>
           </div>
         </div>
         :
         <div className='PhoneCommon'>
-          <div className='date-common'>
-            <img className='calendar-icon' src={calendarIcon} />
-            <h1 className='detail-date'>{detail.date}</h1>
+          <div className='date'>
+            <img src={calendarIcon} width='25' />
+            <h2>{detail.date}: </h2>
+            <h3>{detail.mood}</h3>
           </div>
-          <div className='mood-common'>
-            <img className='mood-icon' src={moodIcon} />
-            <h2 className='detail-mood'>{detail.mood}</h2>
-          </div>
-          <div className='note-common'>
-            <img className='note-icon' src={noteIcon} />
-            <h2 className='detail-note'>{detail.note}</h2>
+          <div className='note'>
+            <img src={noteIcon} width='30'/>
+            <h2>Note</h2>
+            <p>{detail.note}</p>
           </div>
         </div>
       }

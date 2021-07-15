@@ -80,9 +80,9 @@ export const Top = () => {
 
         (
           isWide ?
-          <div className='whole-body'>
+          <div className='WholeBody'>
 
-            <div className='Top'>
+            <div className='MoodContent'>
             {Array.from(mood).map( d => <MoodContent {...d}  /> )}
             </div>
 
@@ -119,9 +119,9 @@ export const Top = () => {
 
           </div>
           :
-          <div className='whole-body'>
+          <div className='PhoneWholeBody'>
 
-            <div className='PhoneTop'>
+            <div className='PhoneMoodContent'>
             {Array.from(mood).map( d => <MoodContent {...d}  /> )}
             </div>
 
@@ -137,14 +137,14 @@ export const Top = () => {
                 <div className='label-color4'></div>
               </div>
 
-              <PieChart className='pie-chart-child' width={400} height={400}>
+              <PieChart className='PhonePieChartChild' width={380} height={380}>
                 <Pie
                   data={data}
                   cx={200}
                   cy={200}
                   labelLine={false}
                   label={renderCustomizedLabel}
-                  outerRadius={150}
+                  outerRadius={120}
                   fill="#8884d8"
                   dataKey="count"
                 >

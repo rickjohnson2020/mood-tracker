@@ -32,9 +32,9 @@ if os.path.isfile(dotenv_file):
 SECRET_KEY = 'jsyd0shl-t!_v=ypw=&b$kmc8@wy#2v$)_e$ky-6l)f+$_2e!r'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mood-tracking-app.herokuapp.com', '127.0.0.1:8000', 'localhost']
 
 
 # Application definition

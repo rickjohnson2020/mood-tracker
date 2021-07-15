@@ -32,7 +32,7 @@ export const MoodContent = (mood) => {
         : mood_img === img2 ? 'img2'
         : mood_img === img3 ? 'img3'
         : 'img4'}>
-          <h1 className='date'>{mood.date}</h1>
+          <h1 className='ContentDate'>{mood.date}</h1>
           <img src={mood_img}/>
         </div>
       </Link>

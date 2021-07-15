@@ -1,27 +1,49 @@
 .common {
   background-color: #F5F5F5;
-  width: 80%;
+  width: 60%;
   height: auto;
   /* margin: 100px 300px 100px 300px; */
   border-radius:15px;
-  position: absolute;
-  right: 170px;
-  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  /* position: absolute; */
+  /* right: 120px; */
+  /* font-family: "Montserrat"; */
+  margin: 0 auto;
 }
 
 .PhoneCommon {
+  /* font-family: "Montserrat"; */
   background-color: #F5F5F5;
-  width: 80%;
+  width: 100%;
   height: auto;
   /* margin: 100px 300px 100px 300px; */
   border-radius:15px;
-  position: absolute;
-  right: 50px;
+  /* position: absolute; */
+  /* right: 50px; */
+  margin: 0 auto;
 }
 
-.date-common {
-  margin: 12px auto 40px 12px;
-  display:flex;
+.date {
+  margin-bottom: 20px;
+}
+.date img {
+  margin: 12px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.date h2 {
+  vertical-align: middle;
+  display: inline-block;
+  color: black;
+  font-weight: normal;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.date h3 {
+  vertical-align: middle;
+  display: inline-block;
+  color: #efcc00;
+  font-weight: bold;
+  font-size: 25px;
 }
 
 .mood-common {
@@ -29,10 +51,26 @@
   margin: 12px auto 40px 12px;
 }
 
-.note-common {
+.note img {
   /* display:flex; */
-  margin-left: 12px;
-
+  margin: 12px;
+  vertical-align: middle;
+  display: inline-block;
+}
+.note h2 {
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0;
+  font-weight: normal;
+  font-size: 23px;
+}
+.note p {
+  margin: 12px;
+  margin-top: 0;
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-style: italic;
+  font-size: 18px;
 }
 
 .calendar-icon {
@@ -40,7 +78,7 @@
   height: 25px;
   display:inline-block;
   vertical-align:top;
-  margin: 12px auto 12px 12px;
+  margin: 12px;
 }
 
 .mood-icon {
@@ -48,25 +86,25 @@
   height: 25px;
   display:inline-block;
   vertical-align:top;
-  margin: 12px auto 12px 12px;
+  margin: 12px;
 }
 
 .note-icon {
-  width: 30px;
-  height: 30px;
-  display:inline-block;
-  vertical-align:top;
-  margin: 12px auto 12px 12px;
+  /* width: 30px; */
+  /* height: 30px; */
+  /* display:inline-block; */
+  /* vertical-align:top; */
+  /* margin: 12px; */
 }
 
 .detail-date {
   font-size: 25px;
   font-weight: 500;
-  /* padding-right: 90%; */
+  margin-left: 0;
   display:inline-block;
   vertical-align:top;
   /* margin: 12px auto 12px 12px; */
-  padding-right: 1100px;
+  /* padding-right: 1100px; */
 }
 
 .detail-mood {
@@ -76,7 +114,7 @@
   display:inline-block;
   vertical-align:top;
   margin: 12px auto 12px 12px;
-  padding-right: 1100px;
+  /* padding-right: 1100px; */
 }
 
 .detail-note {
